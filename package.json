@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Xenon789/new-tech/issues"
   },
-  "homepage": "https://github.com/Xenon789/new-tech#readme"
+  "homepage": "https://github.com/Xenon789/new-tech#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "sequelize": "^6.29.0"
+  }
 }
