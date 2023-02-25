@@ -49,7 +49,7 @@ router.get('/login', (req, res) => {
 });
 
 // gets sign up and logs in if successful
-router.get('signup', (req, res) => {
+router.get('/signup', (req, res) => {
     if (req.session.loggedIn) {
         res.redirect('/');
     }
